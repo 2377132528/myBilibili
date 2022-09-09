@@ -1,0 +1,45 @@
+{
+    "": "// 这是  热门速递  的数据",
+    "roll_six_comics": [
+      {
+        "comic_id": 25449,
+        "title": "乔乔福音（乔乔的奇妙冒险第8部）",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/200bf87f39aaa73ab5cb7d627a2aec279787571f.png"
+      },
+      {
+        "comic_id": 25497,
+        "title": "乔乔的奇妙冒险（1-5部)",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/4d2502dd1540470c91b5a147edc7917cacfd79a2.png"
+      },
+      {
+        "comic_id": 24733,
+        "title": "火影忍者",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/a5421136f63c6a77056bd526ef7bf2b164039f19.png"
+      },
+      {
+        "comic_id": 25469,
+        "title": "精灵宝可梦",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/58f703c8ac32fdbbc928e26585bcf6ff0f7e9528.png"
+      },
+      {
+        "comic_id": 24743,
+        "title": "龙珠",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/8ff30760d19eecb9e6c1f5e08638581b5478607c.png"
+      },
+      {
+        "comic_id": 26579,
+        "title": "女神、异世界和变成砖头虫的我",
+        "horizontal_cover": "https://i0.hdslb.com/bfs/manga-static/c58607a6f102777fe34b5bfc448926c4d0389af0.jpg"
+      },
+      {
+        "comic_id": 25467,
+        "title": "食戟之灵",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/920b7c6e029ce6f6c5aa008e6bc72922863d1392.png"
+      },
+      {
+        "comic_id": 26873,
+        "title": "大剑",
+        "horizontal_cover": "http://i0.hdslb.com/bfs/manga-static/9242dddeddbe559af2fd064dc183b9c9b3aaaf4a.jpg"
+      }
+    ]
+}

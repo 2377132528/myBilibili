@@ -1,0 +1,567 @@
+body {
+    position: relative;
+    height: 3000px;
+    padding-top: 50px;
+    /* background-color: brown; */
+}
+
+.w {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* 顶部导航栏------------------------------------------------- */
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+/* 导航栏中间内容区域 */
+.nav .nav_list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 1160px;
+    /* background-color: blueviolet; */
+}
+
+/* 左侧区域-------------------------------------------------- */
+.nav .nav_list .left {
+    margin-right: 40px;
+}
+
+.nav .nav_list .left .nav_logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.nav .nav_list .left .nav_title {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* 中间区域---------------------------------------------------- */
+.nav .nav_list .middle {
+    width: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 329px;
+}
+
+/* one */
+.nav .nav_list .middle .one img {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    vertical-align: top;
+}
+
+.nav .nav_list .middle .one span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* two */
+.nav .nav_list .middle .two span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* three */
+.nav .nav_list .middle .three span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* four */
+.nav .nav_list .middle .four span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* 右边部分-------------------------------------------------- */
+.nav .nav_list .right {
+    display: flex;
+    align-items: center;
+}
+
+/* one */
+.nav .nav_list .right .one {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 180px;
+    border-radius: 15px;
+    background-color: #f4f4f4;
+}
+
+.nav .nav_list .right .one .one_ipt {
+    width: 122px;
+    margin: 0 8px;
+    padding: 1px 2px;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+.nav .nav_list .right .one .one_ipt::placeholder {
+    font-size: 12px;
+}
+
+.nav .nav_list .right .one span {
+    padding-left: 12px;
+}
+
+.nav .nav_list .right .one .search {
+    width: 16px;
+    height: 16px;
+}
+
+/* two */
+.nav .nav_list .right .two {
+    width: 60px;
+    height: 100%;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* three */
+.nav .nav_list .right .three {
+    height: 100%;
+    width: 28px;
+    font-size: 14px;
+    margin: 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* four */
+.nav .nav_list .right .four {
+    height: 100%;
+    font-size: 14px;
+    width: 28px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* five */
+.nav .nav_list .right .five {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    margin-left: 28px;
+    border-radius: 50%;
+}
+
+.nav .nav_list .right .five img {
+    width: 100%;
+}
+
+/* 头部轮播图部分----------------------------------------------- */
+.lunbo {
+    height: 380px;
+    width: 100%;
+    background-color: red;
+}
+
+#partial-view {
+    height: 380px;
+}
+
+#partial-view img {
+    width: 100%;
+    height: 380px;
+}
+
+/* 中部导航---------------------------------------------------- */
+.middle_nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 73px;
+    background-color: #212121;
+}
+
+.middle_nav .nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 1160px;
+    /* background-color: saddlebrown; */
+}
+
+.middle_nav .nav_list span a {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 新人入坑神作----------------------------------------------- */
+.newPerson {
+    padding: 60px 0 16px 0;
+    width: 100%;
+    height: 121px;
+    background: url(../images/newperson.png) no-repeat;
+}
+
+.newPerson .middle {
+    display: flex;
+    align-items: center;
+}
+
+.newPerson .text {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.newPerson .huan {
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 34px;
+    font-size: 14px;
+    background-color: #d46a5f;
+}
+
+.newPerson .huan i {
+    display: inline-block;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/quan.png) no-repeat;
+    background-size: cover;
+}
+
+/* 为你推荐---------------------------------------------- */
+.tuijian {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding-top: 83px;
+    margin-bottom: 35px;
+    /* background-color: aqua; */
+}
+
+.tuijian .text {
+    flex: 1;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.tuijian .huan {
+    width: 90px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #32aaff;
+    background-color: #def1ff;
+}
+
+.tuijian .huan i {
+    color: #32aaff;
+    display: inline-block;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/huan1.png) no-repeat;
+    background-size: cover;
+}
+
+/* 推荐列表------------------------------------------- */
+.tuijian_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tuijian_list div {
+    width: 172px;
+    height: 290px;
+    margin-bottom: 16px;
+}
+
+.tuijian_list div img {
+    width: 100%;
+}
+
+.tuijian_list div h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.tuijian_list div span {
+    font-size: 13px;
+    color: #999;
+}
+
+/* 热门速递---------------------------------------------- */
+.hot {
+    margin-top: 80px;
+}
+
+.hot .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hot .title .text .one {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.hot .title .text {
+    flex: 1;
+}
+
+.hot .title .text .two,
+.hot .title .text .three {
+    margin-left: 28px;
+}
+
+.hot .title .text span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.hot .huan {
+    width: 90px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #32aaff;
+    background-color: #def1ff;
+}
+
+.hot .huan i {
+    color: #32aaff;
+    display: inline-block;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/huan1.png) no-repeat;
+    background-size: cover;
+}
+
+.hot .body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hot .body div {
+    width: 262px;
+    height: 208px;
+    margin-bottom: 16px;
+}
+
+.hot .body div img {
+    width: 100%;
+}
+
+.hot .body div h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.hot .body div span {
+    font-size: 13px;
+    color: #999;
+}
+
+/* 底部footer-------------------------------------------- */
+footer {
+    padding-top: 46px;
+    width: 100%;
+    height: 292px;
+    background-color: #212121;
+    margin-top: 60px;
+}
+
+footer .top {
+    display: flex;
+    align-items: center;
+    height: 88px;
+    /* background-color: aqua; */
+}
+
+footer .top .logo {
+    width: 68px;
+    height: 68px;
+    margin-right: 24px;
+}
+
+footer .top .title {
+    font-size: 25px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+footer .top .link {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 78px;
+    width: 260px;
+    margin-left: 36px;
+}
+
+footer .top .link a {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.7);
+    display: inline-block;
+    padding: 10px 36px;
+}
+
+footer .top .line {
+    width: 1px;
+    height: 88px;
+    margin-left: 100px;
+    background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+footer .top .pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    height: 75px;
+    margin-left: 100px;
+}
+
+footer .top .pic div {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+
+footer .top .pic div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer .top .pic div span {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+footer .top .pic div .download {
+    position: relative;
+    left: -28px;
+    display: inline-block;
+    width: 120px;
+}
+
+footer .buttom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 108px;
+    margin-top: 38px;
+    /* background-color: aqua; */
+}
+
+footer .buttom .left {
+    height: 100%;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+footer .buttom .left .hezuo {
+    margin-right: 16px;
+}
+
+footer .buttom .left .hezuo,
+footer .buttom .left .kankan {
+    width: 96px;
+    height: 36px;
+}
+
+footer .buttom .left .hezuo img,
+footer .buttom .left .kankan img {
+    width: 100%;
+}
+
+footer .buttom .right div {
+    margin: 12px 0;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.4);
+    line-height: 1;
+}
+
+.floor {
+    position: absolute;
+    top: 520px;
+    z-index: 99;
+    right: 45px;
+    width: 70px;
+    height: 263px;
+    border-radius: 6px;
+    border: 1px solid #bdc7cf;
+    background-color: #fff;
+}
+
+.floor ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 224px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.floor ul li {
+    text-align: center;
+    line-height: 32px;
+}
+
+.floor .top {
+    text-align: center;
+    line-height: 32px;
+    width: 100%;
+    height: 32px;
+    border-top: 1px solid #bdc7cf;
+}
+
+.floor .top img {
+    width: 17px;
+    height: 19px;
+}
+
+.current {
+    background-color: #6fc3ff;
+}

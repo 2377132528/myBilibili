@@ -1,0 +1,50 @@
+{
+    "": "// 这是pc首页  为你推荐  的数据",
+    "list": [
+      {
+        "comic_id": 27915,
+        "title": "我独自盗墓",
+        "vertical_cover": "http://i0.hdslb.com/bfs/manga-static/9042fb75ddd325061fa4c221ac203e7a3b8c186f.jpg"
+      },
+      {
+        "comic_id": 28176,
+        "title": "爷就是开挂少女",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/41dfc4b453e8c4cdffe0fb3e3ccb77e1fc8c301f.jpg"
+      },
+      {
+        "comic_id": 28241,
+        "title": "从1级开始的异世界骑士",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/719df41d160e67dfc2e46feff56bbfb107ccebc0.jpg"
+      },
+      {
+        "comic_id": 28258,
+        "title": "骷髅奶爸",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/d1cdc8b52e8e0cafb1e301ec0549200be5c3bded.jpg"
+      },
+      {
+        "comic_id": 28628,
+        "title": "修罗武神",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/7772f5cb1373f95c5a04e576b72ba64c3b7d2dba.jpg"
+      },
+      {
+        "comic_id": 30062,
+        "title": "垃圾堆里的皇女",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/9aaf8e9af25e52c1c6e9cc8ea20af20324ea3a60.jpg"
+      },
+      {
+        "comic_id": 30003,
+        "title": "无法升级的玩家",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/feaf1f6e433cffcb0edc6d3d8e9c21d3714d045c.jpg"
+      },
+      {
+        "comic_id": 30751,
+        "title": "最强王者",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/4d149003240fcc6333e415862a5a81d3635c06f5.jpg"
+      },
+      {
+        "comic_id": 29196,
+        "title": "真理面具",
+        "vertical_cover": "https://i0.hdslb.com/bfs/manga-static/75c4759a550f71ff8cb6aa7a97922ee359bbc70d.jpg"
+      }
+    ]
+}

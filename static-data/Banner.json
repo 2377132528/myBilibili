@@ -1,0 +1,30 @@
+[
+"// 这里是  轮播图区域  的图片地址链接",
+  {
+    "id": 5642,
+    "title": "1.19  你真是个天才",
+    "img": "https://i0.hdslb.com/bfs/manga-static/040a514ab7901577894a89a47df4263df68c0328.jpg",
+    "jump_type": 2,
+    "jump_value": "bilicomic://reader/30572/687904?checkHistory=1",
+    "img2": "https://i0.hdslb.com/bfs/manga-static/040a514ab7901577894a89a47df4263df68c0328.jpg",
+    "bg": "#31479D"
+  },
+  {
+    "id": 5598,
+    "title": "1.19循环充",
+    "img": "https://i0.hdslb.com/bfs/manga-static/0461125f9b5ecadf61abe8fe0893f597c87de691.jpg",
+    "jump_type": 3,
+    "jump_value": "https://www.bilibili.com/blackboard/manga/activity-MDHMw7RFTN.html",
+    "img2": "https://i0.hdslb.com/bfs/manga-static/0461125f9b5ecadf61abe8fe0893f597c87de691.jpg",
+    "bg": "#FFAF51"
+  },
+  {
+    "id": 5612,
+    "title": "1.19 我转生就超神",
+    "img": "https://i0.hdslb.com/bfs/manga-static/585d08cebc8910dad66f745487572e4fc3835418.jpg",
+    "jump_type": 2,
+    "jump_value": "bilicomic://reader/30393/613594?checkHistory=1",
+    "img2": "https://i0.hdslb.com/bfs/manga-static/585d08cebc8910dad66f745487572e4fc3835418.jpg",
+    "bg": "#5C6699"
+  }
+]
